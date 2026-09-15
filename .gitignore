@@ -1,0 +1,27 @@
+# Banco e dados locais
+pedidos.db
+pedidos.db-*
+pedidos.json
+backups/
+exportacoes/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+venv_build/
+
+# Build / PyInstaller
+build/
+dist/
+*.spec
+*.exe
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
