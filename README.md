@@ -6,6 +6,24 @@ Sistema desktop desenvolvido em **Python** para cadastro, acompanhamento e geren
 
 Criar uma aplicação simples e organizada para apoiar o controle operacional de pedidos, aplicando conceitos de desenvolvimento de software, banco de dados e melhoria de processos.
 
+## 🖥️ Demonstração
+
+As imagens abaixo utilizam **dados fictícios** e mostram o fluxo principal da aplicação.
+
+### Login
+
+![Tela de login](docs/screenshots/01-login.png)
+
+### Painel principal
+
+![Painel principal do Controle de Pedidos](docs/screenshots/02-painel-principal.png)
+
+O painel apresenta indicadores de pedidos pendentes, em transporte e entregues, além da tabela de acompanhamento e das principais ações do sistema.
+
+### Cadastro de novo pedido
+
+![Cadastro de novo pedido](docs/screenshots/03-novo-pedido.png)
+
 ## ✨ Funcionalidades
 
 - Login com usuários e níveis de acesso (`admin` e `operador`)
@@ -42,6 +60,8 @@ controle-de-pedidos/
 ├── regras_pedidos.py        # Validações e regras reutilizáveis
 ├── pedidos_repositorio.py   # Operações de leitura/escrita dos pedidos
 ├── build.bat                # Geração do executável no Windows
+├── docs/
+│   └── screenshots/         # Capturas da aplicação com dados fictícios
 ├── .gitignore
 └── README.md
 ```
@@ -72,8 +92,8 @@ O projeto utiliza apenas a biblioteca padrão do Python durante a execução.
 Clone o repositório e entre na pasta do projeto:
 
 ```bash
-git clone URL_DO_REPOSITORIO
-cd controle-de-pedidos
+git clone https://github.com/MarcosPhilipe2/Controle_de_Pedidos.git
+cd Controle_de_Pedidos
 ```
 
 Execute:
